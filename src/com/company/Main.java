@@ -3,10 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Student myStudent = new Student();
-        System.out.println(myStudent.PrintGPA());
+        Student Kim = new Student();
+        System.out.println(Kim.PrintGPA());
 
-        BadStudent BadStudent = new BadStudent();
-        System.out.println(BadStudent.ShowGPA());
+        BadStudent Tom = new BadStudent();
+        System.out.println(Tom.ShowGPA());
     }
 }
