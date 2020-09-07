@@ -6,7 +6,7 @@ public class Main {
         Student myStudent = new Student();
         System.out.println(myStudent.PrintGPA());
 
-        Student BadStudent = new BadStudent();
-        System.out.println(BadStudent.PrintGPA());
+        BadStudent BadStudent = new BadStudent();
+        System.out.println(BadStudent.ShowGPA());
     }
 }
