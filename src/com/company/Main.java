@@ -9,8 +9,6 @@
 示例工程：- https://github.com/bjdhjy888/LessonOnSuper
 */
 
-
-
 package com.company;
 
 public class Main {
@@ -19,7 +17,7 @@ public class Main {
         Student Kim = new Student();
         System.out.println(Kim.PrintGPA());
 
-        BadStudent Tom = new BadStudent();
-        System.out.println(Tom.ShowGPA());
+        BadStudent Amy = new BadStudent();
+        System.out.println(Amy.ShowGPA());
     }
 }
