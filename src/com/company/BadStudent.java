@@ -6,12 +6,10 @@ public class BadStudent extends Student {
     public int ShowGPA(){
         // return GPA;
         return GPA;
-
     }
 
     public int UsingSuperToShowGPA(){
         // return GPA;
         return super.GPA;
-
     }
 }
