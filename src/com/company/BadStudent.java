@@ -10,6 +10,7 @@ public class BadStudent extends Student {
 
     public int UsingSuperToShowGPA(){
         // return GPA;
+        // 子类调用父类的GPA
         return super.GPA;
     }
 }
