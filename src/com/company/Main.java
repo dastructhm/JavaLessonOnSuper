@@ -17,6 +17,6 @@ public class Main {
 
         BadStudent Amy = new BadStudent();
         System.out.println("Amy's GPA is " + Amy.ShowGPA() + ".");
-        System.out.println("Amy's GPA is " + Amy.ShowGPAWithSuper() + ", using this.");
+        System.out.println("Amy's GPA is " + Amy.UsingSuperToShowGPA() + ", using super keyword.");
     }
 }

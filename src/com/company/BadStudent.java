@@ -9,7 +9,7 @@ public class BadStudent extends Student {
 
     }
 
-    public int ShowGPAWithSuper(){
+    public int UsingSuperToShowGPA(){
         // return GPA;
         return super.GPA;
 
